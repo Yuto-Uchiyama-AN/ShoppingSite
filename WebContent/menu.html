@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>メニュー</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/openclose.js"></script>
+<script src="js/fixmenu_pagetop.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/SWEETS.jpg" alt="SWEET SHOP"></a></h1>
+<h2>SWEETS MENU<span>おすすめメニュー</span></h2>
+<!--PC用（901px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="index.html"><span>Home</span><span>ホーム</span></a></li>
+<li><a href="/ShoppingSite/views/login2.jsp"><span>Login</span><span>ログイン</span></a></li>
+<li><a href="menu.html"><span>Menu</span><span>おすすめメニュー</span></a></li>
+<li><a href="access.html"><span>Access</span><span>アクセス</span></a></li>
+<li><a href="recruit.html"><span>News</span><span>お知らせ</span></a></li>
+</ul>
+</nav>
+</header>
+
+
+<div id="main">
+
+<section class="ofh">
+
+<h2>おすすめメニュー</h2>
+
+<div class="list">
+<figure><img src="img/purin.jpg" alt=""></figure>
+<h4>プリン</h4>
+<p class="price">800円</p>
+<p>王道のスイーツプリン！固めのプリン好きにおすすめです！</p>
+</div>
+
+<div class="list">
+<figure><img src="img/makaron.jpg" alt=""></figure>
+<h4>マカロン</h4>
+<p class="price">800円</p>
+<p>色々な色があって舌はもちろん目でも楽しめます！</p>
+</div>
+
+<div class="list">
+<figure><img src="img/pafe.jpg" alt=""></figure>
+<h4>パフェ</h4>
+<p class="price">1000円</p>
+<p>プチ贅沢におすすめです！</p>
+</div>
+
+<div class="list">
+<figure><img src="img/shortcake.jpg" alt=""></figure>
+<h4>ショートケーキ</h4>
+<p class="price">450円</p>
+<p>生クリームの甘さとイチゴの甘酸っぱさが最高！！</p>
+</div>
+
+<div class="list">
+<figure><img src="img/syu-kuri.jpg" alt=""></figure>
+<h4>シュークリーム</h4>
+<p class="price">250円</p>
+<p>カスタードの甘さと生地のふわふわが病みつきになります！</p>
+</div>
+
+<div class="list">
+<figure><img src="img/kanure.jpg" alt=""></figure>
+<h4>カヌレ</h4>
+<p class="price">200円</p>
+<p>高級感のあるスイーツを激安販売！！</p>
+</div>
+
+</section>
+
+<section>
+
+</section>
+
+</div>
+<!--/#main-->
+
+<footer>
+
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--ページの上部に戻るボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#"><img src="images/icon_pagetop.png" alt="↑"></a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理-->
+<script>
+open_close("menubar_hdr", "menubar-s");
+</script>
+
+</body>
+</html>
